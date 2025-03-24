@@ -1,0 +1,32 @@
+body{
+    background: rgb(22,23,23);
+    background: linear-gradient(90deg, rgba(22,23,23,0.7959558823529411) 0%, rgba(30,197,255,0.7147233893557423) 100%, rgba(116,116,116,0.5018382352941176) 100%);
+    padding: 5%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Source Code Pro;
+    color: white;
+}
+
+p {
+    font-family: Source Code Pro;
+    color: white;
+}
+
+.button {
+    font-family: Source Code Pro;
+    color: black;
+}
+
+.transparentbtn {
+    font-family: Source Code Pro;
+    color: black;
+    cursor:pointer;
+    transition: 150ms ease;
+}
+
+button:hover{
+    scale: 1.5;
+}
