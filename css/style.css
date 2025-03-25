@@ -6,13 +6,13 @@ body{
 
 h1 {
     font-family: Source Code Pro;
-    color: #be93c5;
+    color: #52115c;
 }
 
 
 h3 {
     font-family: Source Code Pro;
-    color:#be93c5;
+    color: #52115c;
 }
 
 .button {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
@@ -35,7 +35,7 @@ button:hover{
 
 h4 {
     font-family: Source Code Pro;
-    color: #be93c5;
+    color: #52115c;
 }
 
 .wrapper {
