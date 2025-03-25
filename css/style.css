@@ -1,38 +1,48 @@
 body{
-    background: rgb(22,23,23);
-    background: linear-gradient(90deg, rgba(22,23,23,0.7959558823529411) 0%, rgba(30,197,255,0.7147233893557423) 100%, rgba(116,116,116,0.5018382352941176) 100%);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     padding: 12% 10%;
 }
 
+
 h1 {
     font-family: Source Code Pro;
-    color: white;
+    color: #be93c5;
 }
+
 
 h3 {
     font-family: Source Code Pro;
-    color: rgb(226, 223, 210);
+    color:#be93c5;
 }
+
+.button {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
 
 .button {
     font-family: Source Code Pro;
     color: black;
     cursor:pointer;
     transition: 150ms ease;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    transition: 0.5s;
 }
 
 button:hover{
     scale: 1.5;
+    background-position: right center;
 }
 
 h4 {
     font-family: Source Code Pro;
-    color: rgb(226, 223, 210);
+    color: #be93c5;
 }
 
 .wrapper {
     text-align: center;
 }
+
+.discordbtn {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
 
 .discordbtn {
     font-family: Source Code Pro;
@@ -41,12 +51,21 @@ h4 {
     top: 50%;
     cursor:pointer;
     transition: 150ms ease;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    transition: 0.5s;
 }
+
+.transparentbtn {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
 
 .transparentbtn {
     font-family: Source Code Pro;
     color: black;
     cursor:pointer;
     transition: 150ms ease;
-    padding: 10
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    transition: 0.5s;
 }
